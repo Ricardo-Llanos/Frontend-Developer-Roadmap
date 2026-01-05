@@ -1,126 +1,153 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta>
-        <meta>
-        <title>Single Page CV - Llanos Lozano Ricardo</title>
-    </head>
-    <body>
-        <header>
-            <hr>
-            <h1>Llanos Lozano Ricardo Alexander</h1>
-        </header>
-        <main>
-            <!-- My Bio -->
-            <aside class="section section-bio">
-                <h2 class="section__title bio__title">Junior Frontend Developer</h2>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page CV - Llanos Lozano Ricardo</title>
+
+    <!-- Primary MetaTags -->
+    <meta name="title" content="Single Page CV - Llanos Lozano Ricardo">
+    <meta name="description"
+        content="Currículum Vitae e información general acerca de Ricardo Alexander Llanos Lozano.">
+    <meta name="author" content="Ricardo Alexander Llanos Lozano">
+
+    <!-- OG MetaTags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Single Page CV - Llanos Lozano Ricardo">
+    <meta property="og:description"
+        content="Currículum Vitae e información general acerca de Ricardo Alexander Llanos Lozano.">
+
+</head>
+
+<body>
+    <header class="header">
+        <hr>
+        <h1>Llanos Lozano Ricardo Alexander</h1>
+        <p class="header--rol">Junior Frontend Developer</p>
+    </header>
+
+    <main>
+        <!-- My Bio -->
+        <section class="section section--bio">
+            <h2 class="section__title bio__title">Información de contacto</h2>
+            <address class="bio__address">
                 <ul class="list bio__list">
-                    <li class="list__item"><strong>Address: </strong>123 Your Street</li>
+                    <li class="list__item"><strong>Address: </strong>Perú</li>
                     <li class="list__item"><strong>City: </strong>Your City, ST 12345</li>
                     <li class="list__item"><strong>Phone Number: </strong>(123-34343)</li>
-                    <li class="list__item"><strong>Email: </strong><a href="mailto:llanoslozano2005@gmail.com">no-reply@gmail.com</a></li>
+                    <li class="list__item"><strong>Email: </strong><a href="mailto:llanoslozano2005@gmail.com">llanoslozano2005@gmail.com</a></li>
                 </ul>
-            </aside>
+            </address>
+        </section>
 
-            <!-- Skills -->
-            <aside class="section section-skills">
-                <h2 class="section__title skills__title">Skills</h2>
-                <p class="paragraph">HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing, Presentation</p>
-            </aside>
+        <!-- Skills -->
+        <section class="section section--skills">
+            <h2 class="section__title skills__title">Skills</h2>
+            <p class="paragraph">HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical
+                Writing, Presentation</p>
+        </section>
 
-            <!-- Education -->
-            <aside class="section section-education">
-                <h2 class="section__title education__title">Education</h2>
-                <ul class="list education__list">
-                    <li class="list__item">
-                        <h3 class="list__item__title">Municipalidad Provincial de Tarma</h3>
-                        <span>Enero 2025 to Abril 2025</span>
-                        <ul class="sublist education__sublist">
-                            <li class="sublist__item">List of achievements</li>
-                            <li class="sublist__item">List of achievements</li>
-                            <li class="sublist__item">List of achievements</li>
-                            <li class="sublist__item">List of achievements</li>
-                            <li class="sublist__item">List of achievements</li>
-                        </ul>
-                        <span><strong>Skills: </strong>List of skills used or gained at this company</span>
-                    </li>
-                </ul>
-            </aside>
+        <!-- Education -->
+        <section class="section section--education">
+            <h2 class="section__title education__title">Education</h2>
+            <ul class="list education__list">
+                <li class="list__item">
+                    <h3 class="list__item__title">Municipalidad Provincial de Tarma</h3>
+                    <span>Enero 2025 to Abril 2025</span>
+                    <ul class="sublist education__sublist">
+                        <li class="sublist__item">List of achievements</li>
+                        <li class="sublist__item">List of achievements</li>
+                        <li class="sublist__item">List of achievements</li>
+                        <li class="sublist__item">List of achievements</li>
+                        <li class="sublist__item">List of achievements</li>
+                    </ul>
+                    <span><strong>Skills: </strong>List of skills used or gained at this company</span>
+                </li>
+            </ul>
+        </section>
 
-            <!-- Social Media -->
-            <aside class="section section-social-media">
-                <h2>Across the Internet</h2>
-                <ul class="list social-media__list">
-                    <li class="list__item">
-                        <a href="">Linkedin</a>
-                    </li>
-                    <li class="list__item">
-                        <a href="">Github</a>
-                    </li>
-                </ul>
-            </aside>
-        </main>
-    </body>
+        <!-- Social Media -->
+        <section class="section section--social-media">
+            <h2>Across the Internet</h2>
+            <ul class="list social-media__list">
+                <li class="list__item">
+                    <a href="">Linkedin</a>
+                </li>
+                <li class="list__item">
+                    <a href="">Github</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
 
-    <style>
-        *{
-            font-family: sans-serif;
-        }
+<style>
+    * {
+        font-family: sans-serif;
+    }
 
-        body{
-            min-height: 100vh;
-            border: 2px solid #000;
+    body {
+        min-height: 100vh;
+        border: 2px solid #000;
 
-            padding: 30px;
+        padding: 30px;
 
-            font-size: 16px;
-        }
+        font-size: 16px;
+    }
 
-        hr{
-            border: 1px solid #000;
-        }
+    hr {
+        border: 1px solid #000;
+    }
 
-        header, aside{
-            margin-bottom: 30px;
-        }
+    header,
+    section {
+        margin-bottom: 30px;
+    }
 
-        h1{
-            font-size: 2em;
-        }
+    h1 {
+        font-size: 2em;
+    }
 
+    .header--rol{
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #292;
+    }
 
+    h2 {
+        font-size: 1em;
+        font-weight: normal;
+        color: #292;
+    }
 
-        h2{
-            font-size: 1em;
-            font-weight: normal;
-            color: #292;
-        }
+    h3 {
+        font-size: 1em;
+        margin: 0;
+        margin-bottom: 10px;
 
-        h3{
-            font-size: 1em;
-            margin: 0;
-            margin-bottom: 10px;
+        color: #48e;
+        font-weight: normal;
+    }
 
-            color: #48e;
-            font-weight: normal;
-        }
+    .list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
 
-        .list{
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-        }
+    .sublist {
+        padding: 0 25px;
+    }
 
-        .sublist{
-            padding: 0 25px;
-        }
+    .list__item,
+    .sublist__item {
+        padding: 2px;
+    }
 
-        .list__item, .sublist__item{
-            padding: 2px;
-        }
+    .sublist {
+        margin: 10px 0;
+    }
+</style>
 
-        .sublist{
-            margin: 10px 0;
-        }
-    </style>
 </html>
